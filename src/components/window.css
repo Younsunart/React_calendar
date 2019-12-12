@@ -1,0 +1,143 @@
+.Control {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    z-index: 10000;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    position: fixed;
+    -ms-flex-align: center;
+    align-items: center;
+    top: 0px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(255 ,255 ,255 ,0.6);
+}
+
+.ctrlWindow {
+    border-radius : 20px;
+    border : solid 2px black;
+    display : flex;
+    flex-direction: column;
+    width : 80%;
+    height : 50%;
+    background : white;
+}
+
+.selectChild {
+    display : flex;
+}
+
+.calendarChildSelector {
+    display : flex;
+    align-items: center;
+    justify-content: space-around;   
+
+}
+
+.childSelector {
+    width : 10%;
+}
+
+.colorPicker{
+    display : flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.firstColorPicker {
+    display : flex;
+    justify-content: space-between;
+}
+
+.secondColorPicker{
+    display : flex;
+    justify-items: space-between;
+}
+
+
+.firstColorPicker >span{
+    display : flex;
+    justify-content: space-around;
+    justify-items: center;
+    align-items: center;
+    height : 4vh;
+    width : 4vh;
+    border : solid 1px lightgrey;
+    background-color: whitesmoke;
+    cursor: pointer;
+}
+
+.secondColorPicker > span{
+    display : flex;
+    justify-content: space-around;
+    justify-items: center;
+    align-items: center;
+    height : 4vh;
+    width : 4vh;
+    border : solid 1px lightgrey;
+    background-color: whitesmoke;
+    cursor: pointer;
+}
+
+.colorPickerOne{
+    background-color: blue;
+    height : 3vh;
+    width : 3vh;
+}
+
+.colorPickerTwo{
+    background-color: green;
+    height : 3vh;
+    width : 3vh;
+}
+
+.colorPickerThree{
+    background-color: Yellow;
+    height : 3vh;
+    width : 3vh;
+}
+
+.colorPickerFour{
+    background-color: Red;
+    height : 3vh;
+    width : 3vh;
+}
+
+.colorPickerFive{
+    background-color: Orange;
+    height : 3vh;
+    width : 3vh;
+}
+
+.colorPickerSix{
+    background-color: Brown;
+    height : 3vh;
+    width : 3vh;
+}
+
+.colorPickerSeven{
+    background-color: Black;
+    height : 3vh;
+    width : 3vh;
+}
+
+.colorPickerHeight{
+    background-color: purple;
+    height : 3vh;
+    width : 3vh;
+}
+
+.colorPickerNine{
+    background-color: lightgreen;
+    height : 3vh;
+    width : 3vh;
+}
+
+.colorPickerTen{
+    background-color: lightblue;
+    height : 3vh;
+    width : 3vh;
+}
